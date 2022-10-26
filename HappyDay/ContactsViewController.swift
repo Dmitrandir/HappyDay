@@ -23,7 +23,7 @@ extension  ContactsViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell  = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell  = tableView.dequeueReusableCell(withIdentifier: "contactList", for: indexPath)
         
         cell.textLabel?.text = "Cell index: \(indexPath.row)"
         return cell
